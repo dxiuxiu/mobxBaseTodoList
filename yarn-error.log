@@ -1,0 +1,54 @@
+Arguments: 
+  d:\Program Files\nodejs\node.exe d:\Program Files\nodejs\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  D:\Program Files\Java\jre1.8.0_191\bin;"C:\Program Files (x86)\Common Files\Oracle\Java\javapath;";C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;D:\SoftWare\cmder;C:\Software\sqlite-tools-win32-x86-3260000;C:\Users\11958\AppData\Roaming\nvm;d:\Program Files\nodejs;D:\Program Files\Apache Software Foundation\Tomcat 8.5\bin;C:\Users\11958\AppData\Local\Microsoft\WindowsApps;C:\Users\11958\AppData\Roaming\nvm;d:\Program Files\nodejs;C:\Users\11958\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  11.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\11958\AppData\Local\Yarn\Cache\v4\npm-node-notifier-5.4.3-cb72daf94c93904098e28b9c590fd866e464bd50\node_modules\node-notifier\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "mobxtodolist",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "main": "src/index.js",
+    "dependencies": {
+      "mobx": "5.13.0",
+      "mobx-react": "6.1.1",
+      "react": "16.8.6",
+      "react-dom": "16.8.6",
+      "react-scripts": "3.0.1"
+    },
+    "devDependencies": {
+      "typescript": "3.3.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
